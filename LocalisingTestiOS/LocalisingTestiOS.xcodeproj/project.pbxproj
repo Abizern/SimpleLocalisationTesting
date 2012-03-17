@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD45F4FC1515501300761091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD45F4FB1515501300761091 /* UIKit.framework */; };
+		AD45F4FE1515501300761091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD45F4FD1515501300761091 /* Foundation.framework */; };
+		AD45F5001515501300761091 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD45F4FF1515501300761091 /* CoreGraphics.framework */; };
+		AD45F5061515501300761091 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD45F5041515501300761091 /* InfoPlist.strings */; };
+		AD45F5081515501300761091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F5071515501300761091 /* main.m */; };
+		AD45F50C1515501300761091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F50B1515501300761091 /* AppDelegate.m */; };
+		AD45F50F1515501300761091 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD45F50D1515501300761091 /* MainStoryboard.storyboard */; };
+		AD45F5121515501300761091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F5111515501300761091 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD45F4F71515501300761091 /* LocalisingTestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalisingTestiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD45F4FB1515501300761091 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD45F4FD1515501300761091 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD45F4FF1515501300761091 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD45F5031515501300761091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD45F5051515501300761091 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD45F5071515501300761091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD45F5091515501300761091 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		AD45F50A1515501300761091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD45F50B1515501300761091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD45F50E1515501300761091 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AD45F5101515501300761091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD45F5111515501300761091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD45F4F41515501300761091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD45F4FC1515501300761091 /* UIKit.framework in Frameworks */,
+				AD45F4FE1515501300761091 /* Foundation.framework in Frameworks */,
+				AD45F5001515501300761091 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD45F4EC1515501300761091 = {
+			isa = PBXGroup;
+			children = (
+				AD45F5011515501300761091 /* LocalisingTestiOS */,
+				AD45F4FA1515501300761091 /* Frameworks */,
+				AD45F4F81515501300761091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD45F4F81515501300761091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD45F4F71515501300761091 /* LocalisingTestiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD45F4FA1515501300761091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD45F4FB1515501300761091 /* UIKit.framework */,
+				AD45F4FD1515501300761091 /* Foundation.framework */,
+				AD45F4FF1515501300761091 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD45F5011515501300761091 /* LocalisingTestiOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD45F50A1515501300761091 /* AppDelegate.h */,
+				AD45F50B1515501300761091 /* AppDelegate.m */,
+				AD45F5101515501300761091 /* ViewController.h */,
+				AD45F5111515501300761091 /* ViewController.m */,
+				AD45F50D1515501300761091 /* MainStoryboard.storyboard */,
+				AD45F5021515501300761091 /* Supporting Files */,
+			);
+			path = LocalisingTestiOS;
+			sourceTree = "<group>";
+		};
+		AD45F5021515501300761091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD45F5031515501300761091 /* Info.plist */,
+				AD45F5041515501300761091 /* InfoPlist.strings */,
+				AD45F5071515501300761091 /* main.m */,
+				AD45F5091515501300761091 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD45F4F61515501300761091 /* LocalisingTestiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD45F5151515501300761091 /* Build configuration list for PBXNativeTarget "LocalisingTestiOS" */;
+			buildPhases = (
+				AD45F4F31515501300761091 /* Sources */,
+				AD45F4F41515501300761091 /* Frameworks */,
+				AD45F4F51515501300761091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalisingTestiOS;
+			productName = LocalisingTestiOS;
+			productReference = AD45F4F71515501300761091 /* LocalisingTestiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD45F4EE1515501300761091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jungle Candy Software";
+			};
+			buildConfigurationList = AD45F4F11515501300761091 /* Build configuration list for PBXProject "LocalisingTestiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD45F4EC1515501300761091;
+			productRefGroup = AD45F4F81515501300761091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD45F4F61515501300761091 /* LocalisingTestiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD45F4F51515501300761091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD45F5061515501300761091 /* InfoPlist.strings in Resources */,
+				AD45F50F1515501300761091 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD45F4F31515501300761091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD45F5081515501300761091 /* main.m in Sources */,
+				AD45F50C1515501300761091 /* AppDelegate.m in Sources */,
+				AD45F5121515501300761091 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD45F5041515501300761091 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD45F5051515501300761091 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD45F50D1515501300761091 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD45F50E1515501300761091 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD45F5131515501300761091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD45F5141515501300761091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD45F5161515501300761091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocalisingTestiOS/Prefix.pch;
+				INFOPLIST_FILE = LocalisingTestiOS/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD45F5171515501300761091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocalisingTestiOS/Prefix.pch;
+				INFOPLIST_FILE = LocalisingTestiOS/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD45F4F11515501300761091 /* Build configuration list for PBXProject "LocalisingTestiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD45F5131515501300761091 /* Debug */,
+				AD45F5141515501300761091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD45F5151515501300761091 /* Build configuration list for PBXNativeTarget "LocalisingTestiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD45F5161515501300761091 /* Debug */,
+				AD45F5171515501300761091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD45F4EE1515501300761091 /* Project object */;
+}
