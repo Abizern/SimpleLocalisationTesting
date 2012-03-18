@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "group:Images"
-      name = "Images">
-      <FileRef
-         location = "group:fish_n_chips.jpg">
-      </FileRef>
-      <FileRef
-         location = "group:fish_n_chips@2x.png">
-      </FileRef>
-      <FileRef
-         location = "group:paella.png">
-      </FileRef>
-      <FileRef
-         location = "group:paella@2x.png">
-      </FileRef>
-   </Group>
    <FileRef
       location = "group:LocalisingTestiOS/LocalisingTestiOS.xcodeproj">
    </FileRef>

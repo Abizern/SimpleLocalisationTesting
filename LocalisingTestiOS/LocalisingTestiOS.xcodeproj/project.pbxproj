@@ -15,6 +15,12 @@
 		AD45F50C1515501300761091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F50B1515501300761091 /* AppDelegate.m */; };
 		AD45F50F1515501300761091 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD45F50D1515501300761091 /* MainStoryboard.storyboard */; };
 		AD45F5121515501300761091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F5111515501300761091 /* ViewController.m */; };
+		AD45F51915155EFA00761091 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD45F51815155EFA00761091 /* QuartzCore.framework */; };
+		AD45F51D1515713600761091 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD45F51C1515713600761091 /* Localizable.strings */; };
+		ADA8581115157CE00091AADE /* fish_n_chips.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8580D15157CE00091AADE /* fish_n_chips.png */; };
+		ADA8581215157CE00091AADE /* fish_n_chips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8580E15157CE00091AADE /* fish_n_chips@2x.png */; };
+		ADA8581315157CE00091AADE /* paella.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8580F15157CE00091AADE /* paella.png */; };
+		ADA8581415157CE00091AADE /* paella@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8581015157CE00091AADE /* paella@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		AD45F50E1515501300761091 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AD45F5101515501300761091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD45F5111515501300761091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD45F51815155EFA00761091 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AD45F51C1515713600761091 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		ADA8580D15157CE00091AADE /* fish_n_chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fish_n_chips.png; path = ../../Images/fish_n_chips.png; sourceTree = "<group>"; };
+		ADA8580E15157CE00091AADE /* fish_n_chips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fish_n_chips@2x.png"; path = "../../Images/fish_n_chips@2x.png"; sourceTree = "<group>"; };
+		ADA8580F15157CE00091AADE /* paella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paella.png; path = ../../Images/paella.png; sourceTree = "<group>"; };
+		ADA8581015157CE00091AADE /* paella@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "paella@2x.png"; path = "../../Images/paella@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD45F51915155EFA00761091 /* QuartzCore.framework in Frameworks */,
 				AD45F4FC1515501300761091 /* UIKit.framework in Frameworks */,
 				AD45F4FE1515501300761091 /* Foundation.framework in Frameworks */,
 				AD45F5001515501300761091 /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +83,7 @@
 				AD45F4FB1515501300761091 /* UIKit.framework */,
 				AD45F4FD1515501300761091 /* Foundation.framework */,
 				AD45F4FF1515501300761091 /* CoreGraphics.framework */,
+				AD45F51815155EFA00761091 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,12 +104,25 @@
 		AD45F5021515501300761091 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADA8581615157D710091AADE /* Images */,
+				AD45F51C1515713600761091 /* Localizable.strings */,
 				AD45F5031515501300761091 /* Info.plist */,
 				AD45F5041515501300761091 /* InfoPlist.strings */,
 				AD45F5071515501300761091 /* main.m */,
 				AD45F5091515501300761091 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA8581615157D710091AADE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8580D15157CE00091AADE /* fish_n_chips.png */,
+				ADA8580E15157CE00091AADE /* fish_n_chips@2x.png */,
+				ADA8580F15157CE00091AADE /* paella.png */,
+				ADA8581015157CE00091AADE /* paella@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +176,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA8581115157CE00091AADE /* fish_n_chips.png in Resources */,
+				ADA8581215157CE00091AADE /* fish_n_chips@2x.png in Resources */,
+				ADA8581315157CE00091AADE /* paella.png in Resources */,
+				ADA8581415157CE00091AADE /* paella@2x.png in Resources */,
 				AD45F5061515501300761091 /* InfoPlist.strings in Resources */,
 				AD45F50F1515501300761091 /* MainStoryboard.storyboard in Resources */,
+				AD45F51D1515713600761091 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +273,7 @@
 				GCC_PREFIX_HEADER = LocalisingTestiOS/Prefix.pch;
 				INFOPLIST_FILE = LocalisingTestiOS/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -252,6 +285,7 @@
 				GCC_PREFIX_HEADER = LocalisingTestiOS/Prefix.pch;
 				INFOPLIST_FILE = LocalisingTestiOS/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +309,7 @@
 				AD45F5171515501300761091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
