@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		AD1F3BAD1515D07400737939 /* fish_n_chips.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1F3BA91515D07400737939 /* fish_n_chips.png */; };
 		AD1F3BAF1515D07400737939 /* paella.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1F3BAB1515D07400737939 /* paella.png */; };
+		AD1F3BB21515D12A00737939 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD1F3BB41515D12A00737939 /* Localizable.strings */; };
 		AD58426F1515AEC900785656 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58426E1515AEC900785656 /* MainWindowController.m */; };
 		AD5842731515B0DA00785656 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5842711515B0DA00785656 /* MainWindowController.xib */; };
-		AD5842751515B65B00785656 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD5842741515B65B00785656 /* Localizable.strings */; };
 		ADA8582D15159A6C0091AADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8582C15159A6C0091AADE /* Cocoa.framework */; };
 		ADA8583715159A6C0091AADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA8583515159A6C0091AADE /* InfoPlist.strings */; };
 		ADA8583915159A6C0091AADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8583815159A6C0091AADE /* main.m */; };
@@ -24,10 +24,12 @@
 /* Begin PBXFileReference section */
 		AD1F3BA91515D07400737939 /* fish_n_chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish_n_chips.png; sourceTree = "<group>"; };
 		AD1F3BAB1515D07400737939 /* paella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paella.png; sourceTree = "<group>"; };
+		AD1F3BB31515D12A00737939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD1F3BB51515D13100737939 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD1F3BB61515D13800737939 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainWindowController.xib; sourceTree = "<group>"; };
 		AD58426D1515AEC900785656 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
 		AD58426E1515AEC900785656 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		AD5842721515B0DA00785656 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindowController.xib; sourceTree = "<group>"; };
-		AD5842741515B65B00785656 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		ADA8582815159A6C0091AADE /* LocalisingTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalisingTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8582C15159A6C0091AADE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		ADA8582F15159A6C0091AADE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -122,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				AD1F3BA81515D07400737939 /* Images */,
-				AD5842741515B65B00785656 /* Localizable.strings */,
+				AD1F3BB41515D12A00737939 /* Localizable.strings */,
 				ADA8583415159A6C0091AADE /* Info.plist */,
 				ADA8583515159A6C0091AADE /* InfoPlist.strings */,
 				ADA8583815159A6C0091AADE /* main.m */,
@@ -167,6 +169,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = ADA8581D15159A6B0091AADE;
 			productRefGroup = ADA8582915159A6C0091AADE /* Products */;
@@ -187,7 +190,7 @@
 				ADA8583D15159A6C0091AADE /* Credits.rtf in Resources */,
 				ADA8584315159A6C0091AADE /* MainMenu.xib in Resources */,
 				AD5842731515B0DA00785656 /* MainWindowController.xib in Resources */,
-				AD5842751515B65B00785656 /* Localizable.strings in Resources */,
+				AD1F3BB21515D12A00737939 /* Localizable.strings in Resources */,
 				AD1F3BAD1515D07400737939 /* fish_n_chips.png in Resources */,
 				AD1F3BAF1515D07400737939 /* paella.png in Resources */,
 			);
@@ -209,10 +212,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AD1F3BB41515D12A00737939 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1F3BB31515D12A00737939 /* en */,
+				AD1F3BB51515D13100737939 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		AD5842711515B0DA00785656 /* MainWindowController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AD5842721515B0DA00785656 /* en */,
+				AD1F3BB61515D13800737939 /* es */,
 			);
 			name = MainWindowController.xib;
 			sourceTree = "<group>";

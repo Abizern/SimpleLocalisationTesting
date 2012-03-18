@@ -5,6 +5,7 @@
 //  Created by Abizer Nasir on 18/03/2012.
 //
 
+static NSString* const kWindowText = @"kWindowText";
 static NSString* const kImageFile = @"kImageFile";
 static NSString* const kLabelText = @"kLabelText";
 static NSString* const kInitialButtonText = @"kInitialButtonText";
@@ -39,9 +40,11 @@ static NSString* const kAlternateButtonText = @"kAlternateButtonText";
 @synthesize initialImageLayerPosition = _initialImageLayerPosition;
 @synthesize displayImageLayerPosition = _displayImageLayerPosition;
 
+
 - (void)windowDidLoad {
     [super windowDidLoad];
-    [[[self window] contentView] setWantsLayer:YES];
+
+    [[self.window contentView] setWantsLayer:YES];
 
     self.imageShowing = NO;
 
@@ -53,6 +56,7 @@ static NSString* const kAlternateButtonText = @"kAlternateButtonText";
 
     [self setupTextLayer];
     [self setupImageLayer];
+    [self updateButtonText];
 
 }
 
@@ -102,6 +106,7 @@ static NSString* const kAlternateButtonText = @"kAlternateButtonText";
 
     NSString *imageFileName = NSLocalizedString(kImageFile, nil);
     theLayer.contents = [NSImage imageNamed:imageFileName];
+    theLayer.contentsGravity = kCAGravityTop;
 
 
     self.imageLayer = theLayer;

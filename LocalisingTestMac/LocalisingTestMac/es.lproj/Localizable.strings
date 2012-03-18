@@ -1,0 +1,11 @@
+/* The name of the image file */
+"kImageFile" = "paella";
+
+/* Initial button text 'What should I do' */
+"kInitialButtonText" = "¿Qué debo hacer?";
+
+/* Shut up and eat */
+"kLabelText" = "¡Come y calla!";
+
+/* Alternate button text 'Ok' */
+"kAlternateButtonText" = "Vale";
