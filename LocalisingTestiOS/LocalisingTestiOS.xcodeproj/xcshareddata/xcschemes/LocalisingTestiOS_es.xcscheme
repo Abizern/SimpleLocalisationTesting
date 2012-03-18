@@ -62,7 +62,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "\(en\)"
+            argument = "\(es\)"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

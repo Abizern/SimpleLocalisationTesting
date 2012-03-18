@@ -16,11 +16,11 @@
 		AD45F50F1515501300761091 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD45F50D1515501300761091 /* MainStoryboard.storyboard */; };
 		AD45F5121515501300761091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F5111515501300761091 /* ViewController.m */; };
 		AD45F51915155EFA00761091 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD45F51815155EFA00761091 /* QuartzCore.framework */; };
-		AD45F51D1515713600761091 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD45F51C1515713600761091 /* Localizable.strings */; };
 		ADA8581115157CE00091AADE /* fish_n_chips.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8580D15157CE00091AADE /* fish_n_chips.png */; };
 		ADA8581215157CE00091AADE /* fish_n_chips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8580E15157CE00091AADE /* fish_n_chips@2x.png */; };
 		ADA8581315157CE00091AADE /* paella.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8580F15157CE00091AADE /* paella.png */; };
 		ADA8581415157CE00091AADE /* paella@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8581015157CE00091AADE /* paella@2x.png */; };
+		ADA85818151584440091AADE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA8581A151584440091AADE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,11 +38,13 @@
 		AD45F5101515501300761091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD45F5111515501300761091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AD45F51815155EFA00761091 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		AD45F51C1515713600761091 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		ADA8580D15157CE00091AADE /* fish_n_chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fish_n_chips.png; path = ../../Images/fish_n_chips.png; sourceTree = "<group>"; };
 		ADA8580E15157CE00091AADE /* fish_n_chips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fish_n_chips@2x.png"; path = "../../Images/fish_n_chips@2x.png"; sourceTree = "<group>"; };
 		ADA8580F15157CE00091AADE /* paella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paella.png; path = ../../Images/paella.png; sourceTree = "<group>"; };
 		ADA8581015157CE00091AADE /* paella@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "paella@2x.png"; path = "../../Images/paella@2x.png"; sourceTree = "<group>"; };
+		ADA85817151584310091AADE /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ADA85819151584440091AADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADA8581B1515844C0091AADE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA8581615157D710091AADE /* Images */,
-				AD45F51C1515713600761091 /* Localizable.strings */,
+				ADA8581A151584440091AADE /* Localizable.strings */,
 				AD45F5031515501300761091 /* Info.plist */,
 				AD45F5041515501300761091 /* InfoPlist.strings */,
 				AD45F5071515501300761091 /* main.m */,
@@ -160,6 +162,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = AD45F4EC1515501300761091;
 			productRefGroup = AD45F4F81515501300761091 /* Products */;
@@ -182,7 +185,7 @@
 				ADA8581415157CE00091AADE /* paella@2x.png in Resources */,
 				AD45F5061515501300761091 /* InfoPlist.strings in Resources */,
 				AD45F50F1515501300761091 /* MainStoryboard.storyboard in Resources */,
-				AD45F51D1515713600761091 /* Localizable.strings in Resources */,
+				ADA85818151584440091AADE /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,8 +217,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD45F50E1515501300761091 /* en */,
+				ADA85817151584310091AADE /* es */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA8581A151584440091AADE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA85819151584440091AADE /* en */,
+				ADA8581B1515844C0091AADE /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
