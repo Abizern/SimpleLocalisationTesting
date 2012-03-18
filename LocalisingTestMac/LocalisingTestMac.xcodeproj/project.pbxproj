@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD58426F1515AEC900785656 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58426E1515AEC900785656 /* MainWindowController.m */; };
+		AD5842731515B0DA00785656 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5842711515B0DA00785656 /* MainWindowController.xib */; };
 		ADA8582D15159A6C0091AADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8582C15159A6C0091AADE /* Cocoa.framework */; };
 		ADA8583715159A6C0091AADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA8583515159A6C0091AADE /* InfoPlist.strings */; };
 		ADA8583915159A6C0091AADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8583815159A6C0091AADE /* main.m */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD58426D1515AEC900785656 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		AD58426E1515AEC900785656 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		AD5842721515B0DA00785656 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindowController.xib; sourceTree = "<group>"; };
 		ADA8582815159A6C0091AADE /* LocalisingTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalisingTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8582C15159A6C0091AADE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		ADA8582F15159A6C0091AADE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -88,6 +93,9 @@
 			children = (
 				ADA8583E15159A6C0091AADE /* AppDelegate.h */,
 				ADA8583F15159A6C0091AADE /* AppDelegate.m */,
+				AD58426D1515AEC900785656 /* MainWindowController.h */,
+				AD58426E1515AEC900785656 /* MainWindowController.m */,
+				AD5842711515B0DA00785656 /* MainWindowController.xib */,
 				ADA8584115159A6C0091AADE /* MainMenu.xib */,
 				ADA8583315159A6C0091AADE /* Supporting Files */,
 			);
@@ -160,6 +168,7 @@
 				ADA8583715159A6C0091AADE /* InfoPlist.strings in Resources */,
 				ADA8583D15159A6C0091AADE /* Credits.rtf in Resources */,
 				ADA8584315159A6C0091AADE /* MainMenu.xib in Resources */,
+				AD5842731515B0DA00785656 /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,12 +181,21 @@
 			files = (
 				ADA8583915159A6C0091AADE /* main.m in Sources */,
 				ADA8584015159A6C0091AADE /* AppDelegate.m in Sources */,
+				AD58426F1515AEC900785656 /* MainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AD5842711515B0DA00785656 /* MainWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5842721515B0DA00785656 /* en */,
+			);
+			name = MainWindowController.xib;
+			sourceTree = "<group>";
+		};
 		ADA8583515159A6C0091AADE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +313,7 @@
 				ADA8584815159A6C0091AADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
