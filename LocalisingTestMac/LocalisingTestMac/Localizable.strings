@@ -1,0 +1,12 @@
+﻿
+/* The name of the image file */
+"kImageFile" = "fish_n_chips";
+
+/* Initial button text 'What should I do' */
+"kInitialButtonText" = "What should I do?";
+
+/* Shut up and eat */
+"kLabelText" = "Shut up and eat!";
+
+/* Alternate button text 'Ok' */
+"kAlternateButtonText" = "OK";

@@ -10,4 +10,8 @@
 
 @interface MainWindowController : NSWindowController
 
+@property (weak) IBOutlet NSButton *button;
+
+- (IBAction)buttonClicked:(id)sender;
+
 @end
