@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'LocalisingTestMac' target in the 'LocalisingTestMac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <QuartzCore/QuartzCore.h>
+#endif

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LocalisingTestMac/LocalisingTestMac.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LocalisingTestiOS/LocalisingTestiOS.xcodeproj">
    </FileRef>
 </Workspace>
