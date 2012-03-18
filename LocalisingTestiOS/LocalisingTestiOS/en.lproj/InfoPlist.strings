@@ -1,2 +1,5 @@
 /* Localized versions of Info.plist keys */
 
+"CFBundleDisplayName" = "Loc_en";
+"CFBundleName" = "Loc_en";
+
